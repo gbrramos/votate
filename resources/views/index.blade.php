@@ -28,7 +28,7 @@
             <div class="card col-12">
                 <div class="card-head text-center pt-2">
                     <h3>Faça sua enquete aqui!</h3>
-                    <i class="fas fa-check text-success" style="font-size: 5rem"></i>
+                    <img src="{{asset('img/casting_vote.jpg')}}" style="width: 100px;">
                 </div>
                 <div class="card-body">
                     <div class="text-center">Faça seu login e aproveite!</div>
