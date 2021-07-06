@@ -1,5 +1,6 @@
 {
     "/site/bs/bootstrap.css": "/site/bs/bootstrap.css",
     "/site/js/jquery.js": "/site/js/jquery.js",
-    "/site/js/bootstrap.bundle.js": "/site/js/bootstrap.bundle.js"
+    "/site/js/bootstrap.bundle.js": "/site/js/bootstrap.bundle.js",
+    "/site/fa5/all.min.css": "/site/fa5/all.min.css"
 }
