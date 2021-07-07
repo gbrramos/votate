@@ -1,15 +1,19 @@
-const mix = require('laravel-mix');
+  const mix = require('laravel-mix');
 
+  mix
+      /*jQuery JS*/
+      .scripts('node_modules/jquery/dist/jquery.js', 'public/site/js/jquery.js')
 
-mix 
-    /*jQuery JS*/ 
-    .scripts('node_modules/jquery/dist/jquery.js', 'public/site/js/jquery.js')
+      /*Boostrap JS*/
+      .scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/site/js/bootstrap.bundle.js')
 
-    /*Boostrap JS*/
-    .scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/site/js/bootstrap.bundle.js')
-    
-    /*Bootstrap Sass*/
-    .sass('node_modules/bootstrap/scss/bootstrap.scss','public/site/bs/bootstrap.css')
+      /*Bootstrap Sass*/
+      .sass('node_modules/bootstrap/scss/bootstrap.scss', 'public/site/bs/bootstrap.css')
 
-    /* Font Awesome CSS */
-    .styles('node_modules/@fortawesome/fontawesome-free/css/all.min.css','public/site/fa5/all.min.css');
+      /* Font Awesome CSS */
+      .styles('node_modules/@fortawesome/fontawesome-free/css/all.min.css', 'public/site/fa5/all.min.css')
+
+    /* Laravel Auth */ 
+    .js('resources/assets/js/app.js', 'public/js')
+    .vue()
+    .sass('resources/assets/sass/app.scss', 'public/css');

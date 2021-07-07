@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+:root{
+    --font: 'Otomanopee One', sans-serif;
+}
+
+body{
+    background-color: #9305be !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    color: #fff;
+}
+
+h1{
+    font-family: var(--font);
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+
