@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,12 +12,16 @@
     <link rel="stylesheet" href="{{ asset('site/bs/bootstrap.css') }}">
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="{{ asset('site/fa5/css/all.min.css') }}">
+    <!-- Import Livewire Styles -->
+    @livewireStyles
+
 </head>
 
 <body>
     @yield('html')
     <script src="{{ asset('site/js/jquery.js') }}"></script>
     <script src="{{ asset('site/js/bootstrap.bundle.js') }}"></script>
+    @livewireScripts
     @yield('script')
 </body>
 

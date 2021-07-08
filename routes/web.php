@@ -49,6 +49,8 @@ Route::get('/sign-up', function() {
     return view('auth.signup');
 });
 
+Route::get('/verifyFormSignup', ['as'=>'verifyFormSignup','uses'=>'VerifyController@sign_up']);
+
 
 // Route::get('v', function() {
 //     $laravel = app();
